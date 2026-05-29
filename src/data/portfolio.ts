@@ -7,6 +7,7 @@ export interface PortfolioItem {
   category: string;
   youtubeId: string;
   aspect: AspectRatio;
+  thumbnail?: string;
 }
 
 // 세로형 (9:16) — Short Form AI Contents
@@ -42,6 +43,7 @@ export const shortFormItems: PortfolioItem[] = [
     category: "Short Form AI Contents",
     youtubeId: "reMNcv3GE0E",
     aspect: "vertical",
+    thumbnail: "/images/portfolio/Kohonjin.png",
   },
   {
     id: "5",
@@ -50,6 +52,7 @@ export const shortFormItems: PortfolioItem[] = [
     category: "Short Form AI Contents",
     youtubeId: "iXq8hnvpVbw",
     aspect: "vertical",
+    thumbnail: "/images/portfolio/innisfree.png",
   },
   {
     id: "6",
@@ -58,6 +61,7 @@ export const shortFormItems: PortfolioItem[] = [
     category: "Short Form AI Contents",
     youtubeId: "F2ejLAV2n9s",
     aspect: "vertical",
+    thumbnail: "/images/portfolio/dalba.png",
   },
   {
     id: "7",
@@ -66,6 +70,7 @@ export const shortFormItems: PortfolioItem[] = [
     category: "Short Form AI Contents",
     youtubeId: "4Q3gUsXjAVI",
     aspect: "vertical",
+    thumbnail: "/images/portfolio/bella nuit.png",
   },
   {
     id: "8",
@@ -74,6 +79,7 @@ export const shortFormItems: PortfolioItem[] = [
     category: "Short Form AI Contents",
     youtubeId: "IvnBOjhAM60",
     aspect: "vertical",
+    thumbnail: "/images/portfolio/cooling towl.png",
   },
   {
     id: "9",
@@ -82,6 +88,7 @@ export const shortFormItems: PortfolioItem[] = [
     category: "Short Form AI Contents",
     youtubeId: "aLAwHU_jZrY",
     aspect: "vertical",
+    thumbnail: "/images/portfolio/go create your story.png",
   },
   {
     id: "10",
@@ -90,6 +97,7 @@ export const shortFormItems: PortfolioItem[] = [
     category: "Short Form AI Contents",
     youtubeId: "Qnu-BQDb2yw",
     aspect: "vertical",
+    thumbnail: "/images/portfolio/jomalone.png",
   },
   {
     id: "11",
@@ -98,6 +106,7 @@ export const shortFormItems: PortfolioItem[] = [
     category: "Short Form AI Contents",
     youtubeId: "FQCLQpILDmo",
     aspect: "vertical",
+    thumbnail: "/images/portfolio/quenzi.png",
   },
 ];
 

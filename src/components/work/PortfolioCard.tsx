@@ -33,7 +33,7 @@ export function PortfolioCard({ item }: PortfolioCardProps) {
       className={`group block relative w-full ${aspectClass} overflow-hidden bg-dark/5 cursor-pointer`}
     >
       <Image
-        src={`https://img.youtube.com/vi/${item.youtubeId}/maxresdefault.jpg`}
+        src={item.thumbnail ?? `https://img.youtube.com/vi/${item.youtubeId}/maxresdefault.jpg`}
         alt={item.title}
         fill
         unoptimized
@@ -43,8 +43,8 @@ export function PortfolioCard({ item }: PortfolioCardProps) {
 
       {/* Play Button */}
       <div className="absolute inset-0 flex items-center justify-center bg-dark/20 group-hover:bg-dark/40 transition-colors duration-300">
-        <div className="w-14 h-14 rounded-full bg-white/90 group-hover:bg-white flex items-center justify-center transition-all duration-300 group-hover:scale-110 shadow-lg">
-          <svg className="w-5 h-5 text-dark ml-0.5" viewBox="0 0 24 24" fill="currentColor">
+        <div className="w-10 h-10 rounded-full bg-white/90 group-hover:bg-white flex items-center justify-center transition-all duration-300 group-hover:scale-110 shadow-lg">
+          <svg className="w-3.5 h-3.5 text-dark ml-0.5" viewBox="0 0 24 24" fill="currentColor">
             <path d="M8 5v14l11-7z" />
           </svg>
         </div>
