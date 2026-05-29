@@ -20,7 +20,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: {
-    default: "Sequence Studio | AI Art Direction & Brand Film",
+    default: "Sequence Studio | AI 영상 제작 & 교육",
     template: "%s | Sequence Studio",
   },
   description:
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     locale: "ko_KR",
     url: "https://sequencestudio.kr",
     siteName: "Sequence Studio",
-    title: "Sequence Studio | AI Art Direction & Brand Film",
+    title: "Sequence Studio | AI 영상 제작 & 교육",
     description:
       "브랜드에 맞는 이유 있는 한 컷. AI 아트 디렉션 기반 브랜드 영상 제작 스튜디오.",
   },
