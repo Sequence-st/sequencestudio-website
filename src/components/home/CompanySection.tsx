@@ -19,7 +19,7 @@ export function CompanySection() {
             {
               title: "AI Art Direction",
               description:
-                "삼성전자 출신 그래픽 디자이너의 감각으로, AI 기술과 크리에이티브 디렉팅을 결합합니다.",
+                "삼성전자 출신 그래픽 디자이너의 감각으로,\nAI 기술과 크리에이티브 디렉팅을 결합합니다.",
             },
             {
               title: "Brand-First Approach",
@@ -29,15 +29,15 @@ export function CompanySection() {
             {
               title: "End-to-End Production",
               description:
-                "기획부터 콘셉트 설계, 이미지 생성, 영상화, 사운드 디자인까지 원스톱으로 진행합니다.",
+                "기획부터 콘셉트 설계, 이미지 생성, 영상화,\n사운드 디자인까지 원스톱으로 진행합니다.",
             },
           ].map((item, i) => (
             <AnimatedSection key={item.title} delay={i * 150}>
               <div className="bg-white rounded-2xl p-8 h-full shadow-sm hover:shadow-md transition-shadow">
-                <h3 className="text-lg font-semibold font-[family-name:var(--font-montserrat)] text-dark mb-3">
+                <h3 className="text-lg font-bold font-[family-name:var(--font-montserrat)] text-primary mb-3">
                   {item.title}
                 </h3>
-                <p className="text-dark-light text-sm leading-relaxed">
+                <p className="text-dark-light text-sm leading-relaxed whitespace-pre-line">
                   {item.description}
                 </p>
               </div>
