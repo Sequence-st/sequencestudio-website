@@ -40,12 +40,14 @@ export const metadata: Metadata = {
     title: "Sequence Studio | AI 영상 제작 & 교육",
     description:
       "브랜드에 맞는 이유 있는 한 컷. AI 아트 디렉션 기반 브랜드 영상 제작 스튜디오.",
+    images: [{ url: "https://sequencestudio.kr/images/og.png", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Sequence Studio",
     description:
       "브랜드에 맞는 이유 있는 한 컷. AI 아트 디렉션 기반 브랜드 영상 제작 스튜디오.",
+    images: ["https://sequencestudio.kr/images/og.png"],
   },
 };
 
