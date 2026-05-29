@@ -42,9 +42,9 @@ export function PortfolioCard({ item }: PortfolioCardProps) {
       />
 
       {/* Play Button */}
-      <div className="absolute inset-0 flex items-center justify-center bg-dark/20 group-hover:bg-dark/40 transition-colors duration-300">
-        <div className="w-10 h-10 rounded-full bg-white/90 group-hover:bg-white flex items-center justify-center transition-all duration-300 group-hover:scale-110 shadow-lg">
-          <svg className="w-3.5 h-3.5 text-dark ml-0.5" viewBox="0 0 24 24" fill="currentColor">
+      <div className="absolute inset-0 flex items-center justify-center bg-transparent group-hover:bg-dark/20 transition-colors duration-300">
+        <div className="w-6 h-6 rounded-full bg-white/30 group-hover:bg-white/50 flex items-center justify-center transition-all duration-300 group-hover:scale-110">
+          <svg className="w-2.5 h-2.5 text-white ml-0.5" viewBox="0 0 24 24" fill="currentColor">
             <path d="M8 5v14l11-7z" />
           </svg>
         </div>
