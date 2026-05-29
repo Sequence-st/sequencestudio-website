@@ -52,7 +52,7 @@ export function Header() {
                 key={item.href}
                 href={item.href}
                 className={cn(
-                  "text-sm font-medium tracking-wider transition-colors font-[family-name:var(--font-montserrat)]",
+                  "text-sm font-bold tracking-wider transition-colors font-[family-name:var(--font-montserrat)]",
                   pathname === item.href
                     ? showWhite
                       ? "text-white"
