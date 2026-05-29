@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/ui/Container";
 import { SocialLinks } from "./SocialLinks";
@@ -9,9 +10,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Brand */}
           <div>
-            <h3 className="text-xl font-bold tracking-tight font-[family-name:var(--font-montserrat)] mb-4">
-              Sequence studio.
-            </h3>
+            <Image
+              src="/images/logo.png"
+              alt="Sequence Studio"
+              width={160}
+              height={32}
+              className="brightness-0 invert mb-4"
+            />
             <p className="text-white/70 text-sm leading-relaxed">
               AI Art Direction &amp; Brand Film
               <br />
