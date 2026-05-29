@@ -40,20 +40,20 @@ export function ServiceTierCard({ service, index }: ServiceTierCardProps) {
         </div>
 
         {/* Info */}
-        <div className="grid grid-cols-2 gap-4 mb-6 text-sm">
-          <div>
-            <span className="text-dark-light">포커스</span>
-            <p className="font-medium text-dark mt-1">{service.focus}</p>
+        <div className="grid grid-cols-2 gap-3 mb-6">
+          <div className="bg-[#f8f9fb] rounded-xl px-5 py-4">
+            <p className="text-xs text-dark-light tracking-wider font-medium mb-1">포커스</p>
+            <p className="font-semibold text-dark text-sm">{service.focus}</p>
           </div>
-          <div>
-            <span className="text-dark-light">적합 대상</span>
-            <p className="font-medium text-dark mt-1">{service.suitable}</p>
+          <div className="bg-[#f8f9fb] rounded-xl px-5 py-4">
+            <p className="text-xs text-dark-light tracking-wider font-medium mb-1">적합 대상</p>
+            <p className="font-semibold text-dark text-sm">{service.suitable}</p>
           </div>
         </div>
 
         {/* Includes */}
-        <div className="mb-8">
-          <p className="text-xs text-dark-light mb-2 tracking-wider font-medium">
+        <div className="mb-8 bg-[#f8f9fb] rounded-xl px-5 py-4">
+          <p className="text-xs text-dark-light tracking-wider font-medium mb-2">
             포함 항목
           </p>
           <p className="text-sm text-dark-light leading-relaxed whitespace-pre-line">
